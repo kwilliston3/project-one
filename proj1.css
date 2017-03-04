@@ -1,0 +1,118 @@
+.flex-container {
+display: flex;
+flex-flow: wrap;
+flex-direction: column;
+text-align: center;
+flex: 1 100%;
+align-items: center;
+justify-content: center;
+
+}
+
+#nav_menu ul {
+  list-style-type: none;
+
+}
+
+#nav_menu ul li {
+
+}
+
+#nav_menu ul li a {
+  align-self: center;
+  text-align: center;
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  background-color: #556B2F;
+  color: white;
+  font-weight: bold;
+  font-family: 'Pompiere', cursive;
+  width:96.875%;
+  max-width: 1024px;
+
+}
+
+#nav_menu img {
+  margin-top:0;
+  width:130px;
+  height: 60px;
+
+}
+
+body {
+  width: 90%;
+  max-width: 1024px;
+  font-family: 'Pompiere', cursive;
+  background-color: #CAFF70
+
+}
+
+h1 {
+font-family: 'Pompiere', cursive;
+align-self: center;
+color: black;
+
+}
+
+header {
+  width:96.875%;
+  padding: 15px 1.5625%;
+  background: #CAFF70 ;
+  color: white;
+
+}
+
+main {
+  width:59.375%;
+  padding: 15px 1.5625%;
+  text-align: center;
+  font-family: 'Pompiere',cursive;
+
+}
+
+#top {
+  align-self: center;
+  width: 79.375%;
+  padding: 15px 1.5625%;
+
+}
+
+#bottom {
+  align-self: center;
+  width: 79.375%;
+  padding: 15px 1.5625%;
+
+}
+
+footer {
+  width: 34.375%;
+  padding: 15px 1.5625%;
+  text-align: center;
+
+}
+
+#email_form {
+  align-self: center;
+  text-align: center;
+  display: block;
+  padding: 1em 0;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-family: 'Pompiere', cursive;
+  border-right: 2px solid white;
+
+  }
+  #first_3_food  {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Pompiere', cursive;
+
+}
+
+  @media all  and (min-width: 768px) {
+    #nav_menu ul li a {text-align:center; flex: 1 auto;flex:1 auto; order:1;order:1;}
+    body {flex:5 0px;flex:5 0px;order:2;order:2;}
